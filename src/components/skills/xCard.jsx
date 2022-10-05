@@ -5,7 +5,7 @@ export default function Card(props) {
   const { title, imgSrc, imgPosition, text, buttonVariant, buttonText } =
     props.skillData;
   return (
-    <section className="w-80 rounded-lg shadow-md h-64">
+    <section className="w-80 rounded-lg shadow-md h-72 bg-white">
       <img className="object-cover w-16 h-16" src={imgSrc} alt="image" />
       <div className="p-4">
         <h4 className="text-xl font-semibold tracking-tight text-blue-600">
