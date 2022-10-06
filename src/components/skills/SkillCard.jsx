@@ -1,7 +1,7 @@
 import React from "react";
 import UList from "./UList";
 
-export default function Card(props) {
+export default function SkillCard(props) {
   const { title, imgSrc, imgPosition, text, buttonVariant, buttonText } =
     props.skillData;
   return (

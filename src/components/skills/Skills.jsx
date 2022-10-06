@@ -1,4 +1,4 @@
-import Card from "./Card";
+import SkillCard from "./SkillCard";
 import skillsData from "./skillsData";
 
 function Skills() {
@@ -11,7 +11,7 @@ function Skills() {
 
       <div className="grid grid-cols-1 gap-x-16 gap-y-20 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         {Array.from({ length: skillsData.length }).map((_, idx) => (
-          <Card key={idx} skillData={skillsData[idx]} />
+          <SkillCard key={idx} skillData={skillsData[idx]} />
         ))}
       </div>
     </section>

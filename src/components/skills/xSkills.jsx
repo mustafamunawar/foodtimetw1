@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./SkillCard";
 import skillsData from "./skillsData";
 
 function Skills() {
