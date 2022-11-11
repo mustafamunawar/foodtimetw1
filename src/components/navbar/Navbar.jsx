@@ -1,70 +1,58 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/fontawesome-free-solid";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars } from "@fortawesome/fontawesome-free-solid";
+import { FaBars } from "react-icons/fa";
 
-function Li({ item, href, closeNavbar }) {
-  return (
-    <li className="nav-item">
-      <a
-        className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:opacity-75"
-        href={href}
-        onClick={() => closeNavbar()}
-      >
-        <span className="ml-2">{item}</span>
-      </a>
-    </li>
-  );
-}
+const navbarItems = [
+  { itemName: "Home", href: "#home" },
+  { itemName: "About", href: "#about" },
+  { itemName: "Skills", href: "#skills" },
+  { itemName: "Projects", href: "#projects" },
+];
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-green-500 mb-3">
+      <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-green-500">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-white">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-              href="#pablo"
+              className="text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap"
+              href="#home"
             >
-              m-Saudagar
+              mSaudagar
             </a>
             <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <FontAwesomeIcon icon={faBars} className="" />
+              {/* <FontAwesomeIcon icon={faBars} className="" /> */}
+              <FaBars />
             </button>
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center" +
+              "sm:flex flex-grow items-center" +
               (navbarOpen ? " flex" : " hidden")
             }
             id="navbar-1"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <Li
-                item="Home"
-                href="#"
-                closeNavbar={() => setNavbarOpen(false)}
-              />
-              <Li
-                item="About"
-                href="#"
-                closeNavbar={() => setNavbarOpen(false)}
-              />
-              <Li
-                item="Skills"
-                href="#"
-                closeNavbar={() => setNavbarOpen(false)}
-              />
-              <Li
-                item="Projects"
-                href="#"
-                closeNavbar={() => setNavbarOpen(false)}
-              />
+            <ul className="flex flex-col sm:flex-row list-none sm:ml-auto">
+              {navbarItems.map((item, i) => {
+                return (
+                  <li key={i} className="nav-item">
+                    <a
+                      className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
+                      href={item.href}
+                      onClick={() => setNavbarOpen(false)}
+                    >
+                      <span className="ml-2">{item.itemName}</span>
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

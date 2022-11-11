@@ -2,12 +2,11 @@ import React from "react";
 import UList from "./UList";
 
 export default function SkillCard(props) {
-  const { title, imgSrc, imgPosition, text, buttonVariant, buttonText } =
-    props.skillData;
+  const { title, imgSrc, text } = props.skillData;
   return (
     <section className="w-80 rounded-lg shadow-md h-72 bg-white">
       <div className="flex gap-x-6 justify-start items-center pl-4 pt-4">
-        <img className="object-cover w-16 h-16" src={imgSrc} alt="image" />
+        <img className="object-cover w-16 h-16" src={imgSrc} alt={title} />
         <h4 className="text-xl font-semibold tracking-tight text-blue-600">
           {title}
         </h4>
