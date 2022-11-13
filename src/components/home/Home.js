@@ -7,7 +7,7 @@ function Home() {
     <>
       <section
         id="home"
-        className="w-full bg-[url('/src/assets/background-wall-light.jpg')] bg-no-repeat bg-cover"
+        className="w-full bg-[url('/src/assets/background-wall.jpg')] bg-no-repeat bg-cover"
       >
         {/* <section id="home" className="w-full"> */}
         {/* <div className="h-[58px] lg:h-0"></div> */}
@@ -16,7 +16,7 @@ function Home() {
             id="outer"
             className="pt-24 lg:pt-36 lg:px-2 flex flex-wrap lg:flex-nowrap justify-center items-center lg:gap-x-12 xl:gap-x-36 gap-y-20"
           >
-            <div id="left-panel" className="text-gray-500 bg-black">
+            <div id="left-panel" className="text-gray-500">
               <h4 className="text-2xl lg:text-4xl leading-5">Hello, I am</h4>
               <h1 className="text-4xl lg:text-[80px] lg:leading-[80px] text-white">
                 Munawar
@@ -36,7 +36,7 @@ function Home() {
 
             <div
               id="right-panel"
-              className="flex flex-col justify-center items-center gap-y-10 bg-black"
+              className="flex flex-col justify-center items-center gap-y-10"
             >
               <h2 className="text-3xl lg:text-4xl text-gray-200">
                 My Current Tech-Stack{" "}
