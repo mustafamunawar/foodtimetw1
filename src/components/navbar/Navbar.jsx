@@ -4,24 +4,24 @@ import React from "react";
 import { FaBars } from "react-icons/fa";
 
 const navbarItems = [
-  { itemName: "Home", href: "#home" },
-  { itemName: "About", href: "#about" },
-  { itemName: "Skills", href: "#skills" },
-  { itemName: "Projects", href: "#projects" },
+  { itemName: "Breakfast", href: "#home" },
+  { itemName: "Lunch", href: "#about" },
+  { itemName: "Dinner", href: "#skills" },
+  { itemName: "Sign In", href: "#projects" },
 ];
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-green-500">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-white">
+      <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-[#222A35]">
+        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-red-500">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap"
+              className="text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-red-500"
               href="#home"
             >
-              mSaudagar
+              Food-Time
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"

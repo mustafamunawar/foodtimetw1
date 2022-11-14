@@ -1,6 +1,6 @@
-import techStackPng from "../../assets/tech-stack9.png";
+// import techStackPng from "../../assets/tech-stack9.png";
+import foodsOnTable from "../../assets/foods-on-table-jpg-1.jpg";
 // import backgroundWall from "../../assets/background-wall.png";
-import cv from "./resume_M-Saudagar.pdf";
 
 function Home() {
   return (
@@ -8,40 +8,31 @@ function Home() {
       <section id="home" className="w-full bg-[#222A35]">
         {/* <section id="home" className="w-full"> */}
         {/* <div className="h-[58px] lg:h-0"></div> */}
-        <div className="container mx-auto text-red font-salsa min-h-screen">
+        <div className="container mx-auto text-red font-salsa">
           <div
             id="outer"
-            className="pt-24 lg:pt-36 lg:px-2 flex flex-wrap lg:flex-nowrap justify-center items-center lg:gap-x-12 xl:gap-x-36 gap-y-20"
+            className="py-16 lg:pt-24  lg:pb-16 lg:px-2 flex flex-wrap lg:flex-nowrap justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
           >
-            <div id="left-panel" className="text-gray-500">
-              <h4 className="text-2xl lg:text-4xl leading-5">Hello, I am</h4>
+            <div id="left-panel" className="text-gray-500 text-center">
+              {/* <h4 className="text-2xl lg:text-4xl leading-5">Welcome to</h4> */}
               <h1 className="font-bold text-4xl lg:text-[80px] lg:leading-[80px] text-red-500">
                 FOOD-TIME
               </h1>
               <h4 className="text-xl lg:text-2xl">
-                A Frontend Developer with good Backend
+                We deliver food for your tables
               </h4>
-              <button
-                className="text-xl lg:text-2xl border rounded-md border-gray-500 mt-4 p-2"
-                onClick={() => window.open(cv)}
-              >
-                Resume (pdf)
-              </button>
             </div>
 
             <div
               id="right-panel"
-              className="flex flex-col justify-center items-center gap-y-10"
+              className="flex flex-col justify-center items-center gap-y-10 rounded"
             >
-              <h2 className="text-3xl lg:text-4xl text-gray-200">
-                My Current Tech-Stack{" "}
-              </h2>
               <img
-                src={techStackPng}
+                src={"/images/foods-on-table-jpg-1.jpg"}
                 alt="home pic"
-                className="animate-techstack lg:w-[550px] lg:h-[550px]"
+                className="lg:w-[550px] lg:h-[367px] rounded"
                 width="400"
-                height="400"
+                height="267"
               />
             </div>
           </div>
