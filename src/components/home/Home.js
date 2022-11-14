@@ -1,7 +1,3 @@
-// import techStackPng from "../../assets/tech-stack9.png";
-import foodsOnTable from "../../assets/foods-on-table-jpg-1.jpg";
-// import backgroundWall from "../../assets/background-wall.png";
-
 function Home() {
   return (
     <>
