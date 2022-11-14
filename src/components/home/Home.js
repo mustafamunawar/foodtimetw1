@@ -5,23 +5,18 @@ import cv from "./resume_M-Saudagar.pdf";
 function Home() {
   return (
     <>
-      <section
-        id="home"
-        className="w-full bg-[url('/src/assets/background-wall.jpg')] bg-no-repeat bg-cover"
-      >
+      <section id="home" className="w-full bg-[#222A35]">
         {/* <section id="home" className="w-full"> */}
         {/* <div className="h-[58px] lg:h-0"></div> */}
-        <div className="container mx-auto text-white font-ubuntu min-h-screen">
+        <div className="container mx-auto text-red font-salsa min-h-screen">
           <div
             id="outer"
             className="pt-24 lg:pt-36 lg:px-2 flex flex-wrap lg:flex-nowrap justify-center items-center lg:gap-x-12 xl:gap-x-36 gap-y-20"
           >
             <div id="left-panel" className="text-gray-500">
               <h4 className="text-2xl lg:text-4xl leading-5">Hello, I am</h4>
-              <h1 className="text-4xl lg:text-[80px] lg:leading-[80px] text-white">
-                Munawar
-                <br />
-                Saudagar
+              <h1 className="font-bold text-4xl lg:text-[80px] lg:leading-[80px] text-red-500">
+                FOOD-TIME
               </h1>
               <h4 className="text-xl lg:text-2xl">
                 A Frontend Developer with good Backend

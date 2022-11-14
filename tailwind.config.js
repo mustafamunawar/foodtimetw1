@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
+        lemon: ["Lemon", "sans-serif"],
+        salsa: ["Salsa", "sans-serif"],
       },
       screens: {
         "2xl": "1320px",
