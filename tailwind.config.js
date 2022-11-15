@@ -7,6 +7,7 @@ module.exports = {
         ubuntu: ["Ubuntu", "sans-serif"],
         lemon: ["Lemon", "sans-serif"],
         salsa: ["Salsa", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       screens: {
         "2xl": "1320px",
