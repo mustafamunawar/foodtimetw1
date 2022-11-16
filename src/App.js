@@ -13,7 +13,7 @@ function App() {
       {/* <div className="container mx-auto flex flex-col justify-start items-center min-h-screen mt-0 [&>*]:mb-0 [&>section]:b-inherit"> */}
       <div className="container mx-auto flex flex-col justify-start items-center pb-40">
         {/* <h1>Bismillah!</h1> */}
-        <About />
+        {/* <About /> */}
         <Foods />
       </div>
     </>

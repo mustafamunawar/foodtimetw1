@@ -1,7 +1,7 @@
 const foodsData = [
   {
     id: 0,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Asparagus Salad",
     description: "",
     imageFile: "asparagus-salad.jpg",
@@ -9,7 +9,7 @@ const foodsData = [
   },
   {
     id: 1,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Cutlet With Potatoes And Salad",
     description: "",
     imageFile: "cutlet-with-potatoes-and-salad.jpg",
@@ -17,7 +17,7 @@ const foodsData = [
   },
   {
     id: 2,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Grilled Fish Fillet",
     description: "",
     imageFile: "grilled-fish-fillet.jpg",
@@ -25,7 +25,7 @@ const foodsData = [
   },
   {
     id: 3,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Pasta In Thick Sauce",
     description: "",
     imageFile: "pasta-in-thick-sauce.jpg",
@@ -33,7 +33,7 @@ const foodsData = [
   },
   {
     id: 4,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Toasts With Sauce",
     description: "",
     imageFile: "toasts-with-sauce.jpg",
@@ -41,7 +41,7 @@ const foodsData = [
   },
   {
     id: 5,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Beef Burger With Fries",
     description: "",
     imageFile: "beef-burger-with-fries.jpg",
@@ -49,7 +49,7 @@ const foodsData = [
   },
   {
     id: 6,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Falafels With Vegetables",
     description: "",
     imageFile: "falafels-with-vegetables.jpg",
@@ -57,7 +57,7 @@ const foodsData = [
   },
   {
     id: 7,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Cauliflower Potatoes",
     description: "",
     imageFile: "cauliflower-potatoes.jpg",
@@ -73,7 +73,7 @@ const foodsData = [
   },
   {
     id: 9,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Vegetables Clear Soup",
     description: "",
     imageFile: "vegetables-clear-soup.jpg",
@@ -105,7 +105,7 @@ const foodsData = [
   },
   {
     id: 13,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Salmon Fillet With Potatoes",
     description: "",
     imageFile: "salmon-fillet-with-potatoes.jpg",
@@ -113,7 +113,7 @@ const foodsData = [
   },
   {
     id: 14,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Vegetables With Rice",
     description: "",
     imageFile: "vegetables-with-rice.jpg",
@@ -145,7 +145,7 @@ const foodsData = [
   },
   {
     id: 18,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Sauteed Chicken With Broccoli",
     description: "",
     imageFile: "sauteed-chicken-with-broccoli.jpg",
@@ -161,7 +161,7 @@ const foodsData = [
   },
   {
     id: 20,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Chicken Biryani",
     description: "",
     imageFile: "chicken-biryani.jpg",
@@ -169,7 +169,7 @@ const foodsData = [
   },
   {
     id: 21,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Fried Chicken With Vegetables",
     description: "",
     imageFile: "fried-chicken-with-vegetables.jpg",
@@ -177,7 +177,7 @@ const foodsData = [
   },
   {
     id: 22,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Kale And Raddish Salad",
     description: "",
     imageFile: "kale-and-raddish-salad.jpg",
@@ -185,7 +185,7 @@ const foodsData = [
   },
   {
     id: 23,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Sauteed Jumbo Shrimps",
     description: "",
     imageFile: "sauteed-jumbo-shrimps.jpg",
@@ -193,7 +193,7 @@ const foodsData = [
   },
   {
     id: 24,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Chicken Salad With Cheese",
     description: "",
     imageFile: "chicken-salad-with-cheese.jpg",
@@ -209,7 +209,7 @@ const foodsData = [
   },
   {
     id: 26,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Okra Appetizer",
     description: "",
     imageFile: "okra-appetizer.jpg",
@@ -217,7 +217,7 @@ const foodsData = [
   },
   {
     id: 27,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Sliced Tomatoes Salad",
     description: "",
     imageFile: "sliced-tomatoes-salad.jpg",
@@ -225,7 +225,7 @@ const foodsData = [
   },
   {
     id: 28,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Chicken Tandoori",
     description: "",
     imageFile: "chicken-tandoori.jpg",
@@ -233,7 +233,7 @@ const foodsData = [
   },
   {
     id: 29,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Green Salad With Cheese Chunks",
     description: "",
     imageFile: "green-salad-with-cheese-chunks.jpg",
@@ -249,7 +249,7 @@ const foodsData = [
   },
   {
     id: 31,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Soupy Pasta",
     description: "",
     imageFile: "soupy-pasta.jpg",
@@ -265,7 +265,7 @@ const foodsData = [
   },
   {
     id: 33,
-    type: "Breakfast",
+    type: "Dinner",
     name: "Grilled Chicken With Fries",
     description: "",
     imageFile: "grilled-chicken-with-fries.jpg",
@@ -281,7 +281,7 @@ const foodsData = [
   },
   {
     id: 35,
-    type: "Breakfast",
+    type: "Lunch",
     name: "Three Color Pasta",
     description: "",
     imageFile: "three-color-pasta.jpg",
