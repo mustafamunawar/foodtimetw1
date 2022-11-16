@@ -1,4 +1,4 @@
-import { FaHandPaper } from "react-icons/fa";
+// import { FaHandPaper } from "react-icons/fa";
 
 function Home() {
   return (

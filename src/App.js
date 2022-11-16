@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 // import Skills from "./components/skills/Skills";
 import Foods from "./components/skills/Foods";
 import Home from "./components/home/Home";
-import About from "./components/about/About";
+// import About from "./components/about/About";
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
       <div className="container mx-auto flex flex-col justify-start items-center pb-40">
         {/* <h1>Bismillah!</h1> */}
         {/* <About /> */}
-        <Foods />
+        <Foods type="Breakfast" />
+        <Foods type="Lunch" />
+        <Foods type="Dinner" />
       </div>
     </>
   );

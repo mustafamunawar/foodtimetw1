@@ -4,9 +4,9 @@ import React from "react";
 import { FaBars } from "react-icons/fa";
 
 const navbarItems = [
-  { itemName: "Breakfast", href: "#home" },
-  { itemName: "Lunch", href: "#about" },
-  { itemName: "Dinner", href: "#skills" },
+  { itemName: "Breakfast", href: "#Breakfast" },
+  { itemName: "Lunch", href: "#Lunch" },
+  { itemName: "Dinner", href: "#Dinner" },
   { itemName: "Sign In", href: "#projects" },
 ];
 

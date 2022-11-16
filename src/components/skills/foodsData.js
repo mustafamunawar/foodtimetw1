@@ -5,7 +5,7 @@ const foodsData = [
     name: "Asparagus Salad",
     description: "",
     imageFile: "asparagus-salad.jpg",
-    price: "$10.99",
+    price: "$8.99",
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ const foodsData = [
     name: "Cutlet With Potatoes And Salad",
     description: "",
     imageFile: "cutlet-with-potatoes-and-salad.jpg",
-    price: "$10.99",
+    price: "$6.99",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const foodsData = [
     name: "Grilled Fish Fillet",
     description: "",
     imageFile: "grilled-fish-fillet.jpg",
-    price: "$10.99",
+    price: "$11.99",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const foodsData = [
     name: "Pasta In Thick Sauce",
     description: "",
     imageFile: "pasta-in-thick-sauce.jpg",
-    price: "$10.99",
+    price: "$13.99",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const foodsData = [
     name: "Toasts With Sauce",
     description: "",
     imageFile: "toasts-with-sauce.jpg",
-    price: "$10.99",
+    price: "$3.99",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const foodsData = [
     name: "Beef Burger With Fries",
     description: "",
     imageFile: "beef-burger-with-fries.jpg",
-    price: "$10.99",
+    price: "$7.99",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const foodsData = [
     name: "Falafels With Vegetables",
     description: "",
     imageFile: "falafels-with-vegetables.jpg",
-    price: "$10.99",
+    price: "$11.99",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const foodsData = [
     name: "Cauliflower Potatoes",
     description: "",
     imageFile: "cauliflower-potatoes.jpg",
-    price: "$10.99",
+    price: "$8.99",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const foodsData = [
     name: "Porridge With Fruits And Nuts",
     description: "",
     imageFile: "porridge-with-fruits-and-nuts.jpg",
-    price: "$10.99",
+    price: "$6.99",
   },
   {
     id: 9,
@@ -77,7 +77,7 @@ const foodsData = [
     name: "Vegetables Clear Soup",
     description: "",
     imageFile: "vegetables-clear-soup.jpg",
-    price: "$10.99",
+    price: "$9.99",
   },
   {
     id: 10,
@@ -85,7 +85,7 @@ const foodsData = [
     name: "Berries Salad",
     description: "",
     imageFile: "berries-salad.jpg",
-    price: "$10.99",
+    price: "$5.99",
   },
   {
     id: 11,
@@ -93,7 +93,7 @@ const foodsData = [
     name: "French Toasts With Berries",
     description: "",
     imageFile: "french-toasts-with-berries.jpg",
-    price: "$10.99",
+    price: "$12.99",
   },
   {
     id: 12,
@@ -101,7 +101,7 @@ const foodsData = [
     name: "Hummus With Chickpeas",
     description: "",
     imageFile: "hummus-with-chickpeas.jpg",
-    price: "$10.99",
+    price: "$9.99",
   },
   {
     id: 13,
@@ -109,7 +109,7 @@ const foodsData = [
     name: "Salmon Fillet With Potatoes",
     description: "",
     imageFile: "salmon-fillet-with-potatoes.jpg",
-    price: "$10.99",
+    price: "$14.99",
   },
   {
     id: 14,
@@ -117,7 +117,7 @@ const foodsData = [
     name: "Vegetables With Rice",
     description: "",
     imageFile: "vegetables-with-rice.jpg",
-    price: "$10.99",
+    price: "$7.99",
   },
   {
     id: 15,
@@ -133,7 +133,7 @@ const foodsData = [
     name: "Fresh Strawberries",
     description: "",
     imageFile: "fresh-strawberries.jpg",
-    price: "$10.99",
+    price: "$4.99",
   },
   {
     id: 17,
@@ -141,7 +141,7 @@ const foodsData = [
     name: "Ice Cream Banana Toast",
     description: "",
     imageFile: "ice-cream-banana-toast.jpg",
-    price: "$10.99",
+    price: "$6.99",
   },
   {
     id: 18,
@@ -149,7 +149,7 @@ const foodsData = [
     name: "Sauteed Chicken With Broccoli",
     description: "",
     imageFile: "sauteed-chicken-with-broccoli.jpg",
-    price: "$10.99",
+    price: "$13.99",
   },
   {
     id: 19,
@@ -157,7 +157,7 @@ const foodsData = [
     name: "Waffle With Fruits",
     description: "",
     imageFile: "waffle-with-fruits.jpg",
-    price: "$10.99",
+    price: "$7.99",
   },
   {
     id: 20,
@@ -173,7 +173,7 @@ const foodsData = [
     name: "Fried Chicken With Vegetables",
     description: "",
     imageFile: "fried-chicken-with-vegetables.jpg",
-    price: "$10.99",
+    price: "$15.99",
   },
   {
     id: 22,
@@ -189,7 +189,7 @@ const foodsData = [
     name: "Sauteed Jumbo Shrimps",
     description: "",
     imageFile: "sauteed-jumbo-shrimps.jpg",
-    price: "$10.99",
+    price: "$21.99",
   },
   {
     id: 24,
@@ -197,7 +197,7 @@ const foodsData = [
     name: "Chicken Salad With Cheese",
     description: "",
     imageFile: "chicken-salad-with-cheese.jpg",
-    price: "$10.99",
+    price: "$8.99",
   },
   {
     id: 25,
@@ -205,7 +205,7 @@ const foodsData = [
     name: "Fried Egg With Tomatoes",
     description: "",
     imageFile: "fried-egg-with-tomatoes.jpg",
-    price: "$10.99",
+    price: "$9.99",
   },
   {
     id: 26,
@@ -213,7 +213,7 @@ const foodsData = [
     name: "Okra Appetizer",
     description: "",
     imageFile: "okra-appetizer.jpg",
-    price: "$10.99",
+    price: "$3.99",
   },
   {
     id: 27,
@@ -221,7 +221,7 @@ const foodsData = [
     name: "Sliced Tomatoes Salad",
     description: "",
     imageFile: "sliced-tomatoes-salad.jpg",
-    price: "$10.99",
+    price: "$6.99",
   },
   {
     id: 28,
@@ -229,7 +229,7 @@ const foodsData = [
     name: "Chicken Tandoori",
     description: "",
     imageFile: "chicken-tandoori.jpg",
-    price: "$10.99",
+    price: "$12.99",
   },
   {
     id: 29,
@@ -237,7 +237,7 @@ const foodsData = [
     name: "Green Salad With Cheese Chunks",
     description: "",
     imageFile: "green-salad-with-cheese-chunks.jpg",
-    price: "$10.99",
+    price: "$5.99",
   },
   {
     id: 30,
@@ -245,7 +245,7 @@ const foodsData = [
     name: "Omelette With Potatoes",
     description: "",
     imageFile: "omelette-with-potatoes.jpg",
-    price: "$10.99",
+    price: "$11.99",
   },
   {
     id: 31,
@@ -253,7 +253,7 @@ const foodsData = [
     name: "Soupy Pasta",
     description: "",
     imageFile: "soupy-pasta.jpg",
-    price: "$10.99",
+    price: "$12.99",
   },
   {
     id: 32,
@@ -261,7 +261,7 @@ const foodsData = [
     name: "Cinnamon Buns",
     description: "",
     imageFile: "cinnamon-buns.jpg",
-    price: "$10.99",
+    price: "$12.99",
   },
   {
     id: 33,
@@ -269,7 +269,7 @@ const foodsData = [
     name: "Grilled Chicken With Fries",
     description: "",
     imageFile: "grilled-chicken-with-fries.jpg",
-    price: "$10.99",
+    price: "$8.99",
   },
   {
     id: 34,
@@ -277,7 +277,7 @@ const foodsData = [
     name: "Pancake With Butter",
     description: "",
     imageFile: "pancake-with-butter.jpg",
-    price: "$10.99",
+    price: "$11.99",
   },
   {
     id: 35,
@@ -285,7 +285,7 @@ const foodsData = [
     name: "Three Color Pasta",
     description: "",
     imageFile: "three-color-pasta.jpg",
-    price: "$10.99",
+    price: "$8.99",
   },
 ];
 
