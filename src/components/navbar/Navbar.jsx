@@ -1,13 +1,13 @@
 import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBars } from "@fortawesome/fontawesome-free-solid";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaShoppingCart } from "react-icons/fa";
 
 const navbarItems = [
   { itemName: "Breakfast", href: "#Breakfast" },
   { itemName: "Lunch", href: "#Lunch" },
   { itemName: "Dinner", href: "#Dinner" },
-  { itemName: "Sign In", href: "#projects" },
+  // { itemName: "Sign In", href: "#projects" },
 ];
 
 export default function Navbar({ fixed }) {
@@ -59,6 +59,15 @@ export default function Navbar({ fixed }) {
                   </li>
                 );
               })}
+
+              <li className="nav-item">
+                <a
+                  href="#footer"
+                  className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
+                >
+                  <FaShoppingCart className="text-2xl inline  text-red-700" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

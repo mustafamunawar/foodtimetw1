@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 // import Skills from "./components/skills/Skills";
 import Foods from "./components/skills/Foods";
 import Home from "./components/home/Home";
+import Footer from "./components/footer/Footer";
 // import About from "./components/about/About";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Foods type="Lunch" />
         <Foods type="Dinner" />
       </div>
+      <Footer />
     </>
   );
 }

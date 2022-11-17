@@ -52,7 +52,7 @@ function Home() {
 
             <ul className="font-normal pl-10 pr-1 list-outside list-disc mt-4 text-xl lg:text-2xl [&>*]:pt-4">
               <li>
-                Your food will arrive within 30 minutes or it is yours for free
+                Your food will arrive within 30 minutes or it's yours for free
               </li>
               <li>Your money back if our food is not up to your taste</li>
               <li>
