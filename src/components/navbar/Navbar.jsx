@@ -18,10 +18,16 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-red-500">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-red-500"
+              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-red-500"
               href="#home"
             >
-              Food-Time
+              {/* <img
+                src="/images/foodtime-logo8.png"
+                alt="Food Time"
+                width="48"
+                height="48"
+              /> */}
+              Food Time
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
