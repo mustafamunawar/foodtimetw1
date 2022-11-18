@@ -63,6 +63,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   href="#footer"
+                  onClick={() => setNavbarOpen(false)}
                   className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
                 >
                   <FaShoppingCart className="text-2xl inline  text-red-700" />

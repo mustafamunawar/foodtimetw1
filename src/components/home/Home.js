@@ -1,12 +1,4 @@
-import {
-  FaHandPaper,
-  FaRegHandPaper,
-  FaYoutube,
-  FaInstagram,
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaRegEnvelope,
-} from "react-icons/fa";
+import { FaHandPaper, FaRegHandPaper } from "react-icons/fa";
 
 function Home() {
   return (
@@ -47,10 +39,10 @@ function Home() {
           <div className="py-8 flex flex-col justify-center items-center container mx-auto mb-8">
             <div className="flex items-center mt-12 text-4xl font-roboto">
               <FaRegHandPaper className="scale-x-[-1] text-gray-700" />
-              <h1 className="mt-2 ml-1">Our Committment</h1>
+              <h1 className="mt-2 ml-2 text-gray-700">Our Committment</h1>
             </div>
 
-            <ul className="font-normal pl-10 pr-1 list-outside list-disc mt-4 text-xl lg:text-2xl [&>*]:pt-4">
+            <ul className=" text-gray-800 font-light pl-10 pr-1 list-outside list-disc mt-4 text-xl lg:text-2xl [&>*]:pt-4">
               <li>
                 Your food will arrive within 30 minutes or it's yours for free
               </li>
