@@ -1,4 +1,6 @@
 // import "./App.css";
+import { Route, Routes, Link } from "react-router-dom";
+
 import Navbar from "./components/navbar/Navbar";
 // import Skills from "./components/skills/Skills";
 import Foods from "./components/skills/Foods";
