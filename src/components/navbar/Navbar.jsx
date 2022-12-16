@@ -1,17 +1,22 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBars } from "@fortawesome/fontawesome-free-solid";
+import { Link } from "react-router-dom";
+
 import { FaBars, FaShoppingCart } from "react-icons/fa";
 
 const navbarItems = [
-  { itemName: "Breakfast", href: "#Breakfast" },
-  { itemName: "Lunch", href: "#Lunch" },
-  { itemName: "Dinner", href: "#Dinner" },
+  { itemName: "Breakfast", href: "/Breakfast" },
+  { itemName: "Lunch", href: "/Lunch" },
+  { itemName: "Dinner", href: "/Dinner" },
   // { itemName: "Sign In", href: "#projects" },
 ];
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const onLinkClick = () => {
+    setNavbarOpen(false);
+    document.getElementById("menu").scrollIntoView();
+  };
+
   return (
     <>
       <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-[#222A35]">
@@ -49,13 +54,13 @@ export default function Navbar({ fixed }) {
               {navbarItems.map((item, i) => {
                 return (
                   <li key={i} className="nav-item">
-                    <a
+                    <Link
                       className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
-                      href={item.href}
-                      onClick={() => setNavbarOpen(false)}
+                      to={item.href + "#menu"}
+                      onClick={() => onLinkClick()}
                     >
                       <span className="ml-2">{item.itemName}</span>
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
