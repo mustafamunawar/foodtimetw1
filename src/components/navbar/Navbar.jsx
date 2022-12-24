@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FaBars, FaShoppingCart } from "react-icons/fa";
@@ -11,7 +11,14 @@ const navbarItems = [
 ];
 
 export default function Navbar({ fixed }) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  const onDarkModeClick = () => {
+    setDarkMode(!darkMode);
+    document.getElementById("menu").scrollIntoView();
+  };
+
   const onLinkClick = () => {
     setNavbarOpen(false);
     document.getElementById("menu").scrollIntoView();

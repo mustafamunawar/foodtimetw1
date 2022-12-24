@@ -1,18 +1,15 @@
-import { FaHandPaper, FaRegHandPaper } from "react-icons/fa";
+import { FaSun, FaMoon, FaRegHandPaper } from "react-icons/fa";
 
 function Home() {
   return (
     <>
       <section id="home" className="w-full bg-[#222A35]">
-        {/* <section id="home" className="w-full"> */}
-        {/* <div className="h-[58px] lg:h-0"></div> */}
         <div className="container mx-auto text-red font-roboto">
           <div
             id="outer"
             className="py-16 mt-8 lg:py-16 lg:px-2 flex flex-col xl:flex-row justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
           >
             <div id="left-panel" className="text-gray-500 text-center">
-              {/* <h4 className="text-2xl lg:text-4xl leading-5">Welcome to</h4> */}
               <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-red-500">
                 FOOD TIME
               </h1>
