@@ -7,7 +7,7 @@ export default function CustomBulletList({ itemsArray }) {
         return (
           <li>
             <a href={item.href}>
-              <item.Icon className="text-red-600 text-xl inline mr-2" />
+              <item.Icon className="text-primary-600 text-xl inline mr-2" />
               {item.description}
             </a>
           </li>

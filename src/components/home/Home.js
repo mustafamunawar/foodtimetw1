@@ -10,7 +10,7 @@ function Home() {
             className="py-16 mt-8 lg:py-16 lg:px-2 flex flex-col xl:flex-row justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
           >
             <div id="left-panel" className="text-gray-500 text-center">
-              <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-red-500">
+              <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-primary-500">
                 FOOD TIME
               </h1>
               <h4 className="font-light text-xl lg:text-2xl">

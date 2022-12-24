@@ -4,7 +4,7 @@ const foodsData = [
     type: "Lunch",
     name: "Asparagus Salad",
     description: "",
-    imageFile: "asparagus-salad.png",
+    imageFile: "asparagus-salad.jpg",
     price: "$8.99",
   },
   {
@@ -12,7 +12,7 @@ const foodsData = [
     type: "Dinner",
     name: "Cutlet With Potatoes And Salad",
     description: "",
-    imageFile: "cutlet-with-potatoes-and-salad.png",
+    imageFile: "cutlet-with-potatoes-and-salad.jpg",
     price: "$6.99",
   },
   {
@@ -20,7 +20,7 @@ const foodsData = [
     type: "Dinner",
     name: "Grilled Fish Fillet",
     description: "",
-    imageFile: "grilled-fish-fillet.png",
+    imageFile: "grilled-fish-fillet.jpg",
     price: "$11.99",
   },
   {
@@ -28,7 +28,7 @@ const foodsData = [
     type: "Dinner",
     name: "Pasta In Thick Sauce",
     description: "",
-    imageFile: "pasta-in-thick-sauce.png",
+    imageFile: "pasta-in-thick-sauce.jpg",
     price: "$13.99",
   },
   {
@@ -36,7 +36,7 @@ const foodsData = [
     type: "Lunch",
     name: "Toasts With Sauce",
     description: "",
-    imageFile: "toasts-with-sauce.png",
+    imageFile: "toasts-with-sauce.jpg",
     price: "$3.99",
   },
   {
@@ -44,7 +44,7 @@ const foodsData = [
     type: "Lunch",
     name: "Beef Burger With Fries",
     description: "",
-    imageFile: "beef-burger-with-fries.png",
+    imageFile: "beef-burger-with-fries.jpg",
     price: "$7.99",
   },
   {
@@ -52,7 +52,7 @@ const foodsData = [
     type: "Dinner",
     name: "Falafels With Vegetables",
     description: "",
-    imageFile: "falafels-with-vegetables.png",
+    imageFile: "falafels-with-vegetables.jpg",
     price: "$11.99",
   },
   {
@@ -60,7 +60,7 @@ const foodsData = [
     type: "Dinner",
     name: "Cauliflower Potatoes",
     description: "",
-    imageFile: "cauliflower-potatoes.png",
+    imageFile: "cauliflower-potatoes.jpg",
     price: "$8.99",
   },
   {
@@ -68,7 +68,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Porridge With Fruits And Nuts",
     description: "",
-    imageFile: "porridge-with-fruits-and-nuts.png",
+    imageFile: "porridge-with-fruits-and-nuts.jpg",
     price: "$6.99",
   },
   {
@@ -76,7 +76,7 @@ const foodsData = [
     type: "Dinner",
     name: "Vegetables Clear Soup",
     description: "",
-    imageFile: "vegetables-clear-soup.png",
+    imageFile: "vegetables-clear-soup.jpg",
     price: "$9.99",
   },
   {
@@ -84,7 +84,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Berries Salad",
     description: "",
-    imageFile: "berries-salad.png",
+    imageFile: "berries-salad.jpg",
     price: "$5.99",
   },
   {
@@ -92,7 +92,7 @@ const foodsData = [
     type: "Breakfast",
     name: "French Toasts With Berries",
     description: "",
-    imageFile: "french-toasts-with-berries.png",
+    imageFile: "french-toasts-with-berries.jpg",
     price: "$12.99",
   },
   {
@@ -100,7 +100,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Hummus With Chickpeas",
     description: "",
-    imageFile: "hummus-with-chickpeas.png",
+    imageFile: "hummus-with-chickpeas.jpg",
     price: "$9.99",
   },
   {
@@ -108,7 +108,7 @@ const foodsData = [
     type: "Lunch",
     name: "Salmon Fillet With Potatoes",
     description: "",
-    imageFile: "salmon-fillet-with-potatoes.png",
+    imageFile: "salmon-fillet-with-potatoes.jpg",
     price: "$14.99",
   },
   {
@@ -116,7 +116,7 @@ const foodsData = [
     type: "Dinner",
     name: "Vegetables With Rice",
     description: "",
-    imageFile: "vegetables-with-rice.png",
+    imageFile: "vegetables-with-rice.jpg",
     price: "$7.99",
   },
   {
@@ -124,7 +124,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Boiled Egg With Shrimps",
     description: "",
-    imageFile: "boiled-egg-with-shrimps.png",
+    imageFile: "boiled-egg-with-shrimps.jpg",
     price: "$10.99",
   },
   {
@@ -132,7 +132,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Fresh Strawberries",
     description: "",
-    imageFile: "fresh-strawberries.png",
+    imageFile: "fresh-strawberries.jpg",
     price: "$4.99",
   },
   {
@@ -140,7 +140,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Ice Cream Banana Toast",
     description: "",
-    imageFile: "ice-cream-banana-toast.png",
+    imageFile: "ice-cream-banana-toast.jpg",
     price: "$6.99",
   },
   {
@@ -148,7 +148,7 @@ const foodsData = [
     type: "Lunch",
     name: "Sauteed Chicken With Broccoli",
     description: "",
-    imageFile: "sauteed-chicken-with-broccoli.png",
+    imageFile: "sauteed-chicken-with-broccoli.jpg",
     price: "$13.99",
   },
   {
@@ -156,7 +156,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Waffle With Fruits",
     description: "",
-    imageFile: "waffle-with-fruits.png",
+    imageFile: "waffle-with-fruits.jpg",
     price: "$7.99",
   },
   {
@@ -164,7 +164,7 @@ const foodsData = [
     type: "Lunch",
     name: "Chicken Biryani",
     description: "",
-    imageFile: "chicken-biryani.png",
+    imageFile: "chicken-biryani.jpg",
     price: "$10.99",
   },
   {
@@ -172,7 +172,7 @@ const foodsData = [
     type: "Lunch",
     name: "Fried Chicken With Vegetables",
     description: "",
-    imageFile: "fried-chicken-with-vegetables.png",
+    imageFile: "fried-chicken-with-vegetables.jpg",
     price: "$15.99",
   },
   {
@@ -180,7 +180,7 @@ const foodsData = [
     type: "Lunch",
     name: "Kale And Raddish Salad",
     description: "",
-    imageFile: "kale-and-raddish-salad.png",
+    imageFile: "kale-and-raddish-salad.jpg",
     price: "$10.99",
   },
   {
@@ -188,7 +188,7 @@ const foodsData = [
     type: "Lunch",
     name: "Sauteed Jumbo Shrimps",
     description: "",
-    imageFile: "sauteed-jumbo-shrimps.png",
+    imageFile: "sauteed-jumbo-shrimps.jpg",
     price: "$21.99",
   },
   {
@@ -196,7 +196,7 @@ const foodsData = [
     type: "Dinner",
     name: "Chicken Salad With Cheese",
     description: "",
-    imageFile: "chicken-salad-with-cheese.png",
+    imageFile: "chicken-salad-with-cheese.jpg",
     price: "$8.99",
   },
   {
@@ -204,7 +204,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Fried Egg With Tomatoes",
     description: "",
-    imageFile: "fried-egg-with-tomatoes.png",
+    imageFile: "fried-egg-with-tomatoes.jpg",
     price: "$9.99",
   },
   {
@@ -212,7 +212,7 @@ const foodsData = [
     type: "Dinner",
     name: "Okra Appetizer",
     description: "",
-    imageFile: "okra-appetizer.png",
+    imageFile: "okra-appetizer.jpg",
     price: "$3.99",
   },
   {
@@ -220,7 +220,7 @@ const foodsData = [
     type: "Lunch",
     name: "Sliced Tomatoes Salad",
     description: "",
-    imageFile: "sliced-tomatoes-salad.png",
+    imageFile: "sliced-tomatoes-salad.jpg",
     price: "$6.99",
   },
   {
@@ -228,7 +228,7 @@ const foodsData = [
     type: "Dinner",
     name: "Chicken Tandoori",
     description: "",
-    imageFile: "chicken-tandoori.png",
+    imageFile: "chicken-tandoori.jpg",
     price: "$12.99",
   },
   {
@@ -236,7 +236,7 @@ const foodsData = [
     type: "Dinner",
     name: "Green Salad With Cheese Chunks",
     description: "",
-    imageFile: "green-salad-with-cheese-chunks.png",
+    imageFile: "green-salad-with-cheese-chunks.jpg",
     price: "$5.99",
   },
   {
@@ -244,7 +244,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Omelette With Potatoes",
     description: "",
-    imageFile: "omelette-with-potatoes.png",
+    imageFile: "omelette-with-potatoes.jpg",
     price: "$11.99",
   },
   {
@@ -252,7 +252,7 @@ const foodsData = [
     type: "Lunch",
     name: "Soupy Pasta",
     description: "",
-    imageFile: "soupy-pasta.png",
+    imageFile: "soupy-pasta.jpg",
     price: "$12.99",
   },
   {
@@ -260,7 +260,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Cinnamon Buns",
     description: "",
-    imageFile: "cinnamon-buns.png",
+    imageFile: "cinnamon-buns.jpg",
     price: "$12.99",
   },
   {
@@ -268,7 +268,7 @@ const foodsData = [
     type: "Dinner",
     name: "Grilled Chicken With Fries",
     description: "",
-    imageFile: "grilled-chicken-with-fries.png",
+    imageFile: "grilled-chicken-with-fries.jpg",
     price: "$8.99",
   },
   {
@@ -276,7 +276,7 @@ const foodsData = [
     type: "Breakfast",
     name: "Pancake With Butter",
     description: "",
-    imageFile: "pancake-with-butter.png",
+    imageFile: "pancake-with-butter.jpg",
     price: "$11.99",
   },
   {
@@ -284,7 +284,7 @@ const foodsData = [
     type: "Lunch",
     name: "Three Color Pasta",
     description: "",
-    imageFile: "three-color-pasta.png",
+    imageFile: "three-color-pasta.jpg",
     price: "$8.99",
   },
 ];

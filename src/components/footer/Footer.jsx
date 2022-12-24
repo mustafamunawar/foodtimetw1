@@ -19,7 +19,7 @@ function Footer() {
         className="font-roboto font-light text-gray-300 bottom-0 pt-4 pb-8 w-full bg-[#222A35]"
       >
         <div className="container flex flex-col items-center mx-auto text-red font-roboto">
-          <h1 className="ml-4 self-start my-5 font-salsa font-black text-2xl text-red-500">
+          <h1 className="ml-4 self-start my-5 font-salsa font-black text-2xl text-primary-500">
             FOOD TIME
           </h1>
           {/* <Instagram className="h-6 w-6 fill-blue-600" /> */}

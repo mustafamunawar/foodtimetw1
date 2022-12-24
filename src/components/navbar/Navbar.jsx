@@ -27,10 +27,10 @@ export default function Navbar({ fixed }) {
   return (
     <>
       <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-[#222A35]">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-red-500">
+        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-primary-500">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-red-500"
+              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-primary-500"
               href="#home"
             >
               {/* <img
@@ -78,7 +78,7 @@ export default function Navbar({ fixed }) {
                   onClick={() => setNavbarOpen(false)}
                   className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
                 >
-                  <FaShoppingCart className="text-2xl inline  text-red-700" />
+                  <FaShoppingCart className="text-2xl inline  text-primary-500" />
                 </a>
               </li>
             </ul>
