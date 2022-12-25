@@ -16,7 +16,7 @@ export default function FoodCard(props) {
   const { type, name, imageFile, price } = props.foodData;
   return (
     <>
-      <section className="transition transform duration-700 hover:shadow-xl hover:scale-105 py-6 flex flex-col gap-5 items-center w-96 rounded-lg border border-gray-200 bg-stone-100">
+      <section className="transition transform duration-700 hover:shadow-xl hover:scale-105 py-6 flex flex-col gap-5 items-center w-96 rounded-lg border border-gray-200 bg-stone-500">
         <div className="ml-2 self-start font-normal text-primary-700 bg-primary-200 border-2 border-primary-400 rounded-3xl px-3 py-1">
           {type}
         </div>
