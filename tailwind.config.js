@@ -3,10 +3,21 @@
 const colors = require("tailwindcss/colors");
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
+  darkMode: "class",
+
   theme: {
     extend: {
       colors: {
         primary: colors.red,
+        lightbg1: "ffffff",
+        lighttext1: "#000000",
+        darkbg1: colors.stone["800"],
+        darktext1: "#ffffff",
+        lightbg2: colors.stone["200"],
+        lighttext2: "#000000",
+        darkbg2: colors.stone["900"],
+        darktext2: "#ffffff",
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
@@ -28,5 +39,6 @@ module.exports = {
       },
     },
   },
+
   plugins: [],
 };

@@ -12,12 +12,6 @@ const navbarItems = [
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
-
-  const onDarkModeClick = () => {
-    setDarkMode(!darkMode);
-    document.getElementById("menu").scrollIntoView();
-  };
 
   const onLinkClick = () => {
     setNavbarOpen(false);
