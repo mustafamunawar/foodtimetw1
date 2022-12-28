@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { BsMoonStars, BsSun } from "react-icons/bs";
 
 import { FaBars, FaShoppingCart } from "react-icons/fa";
 
@@ -17,6 +18,18 @@ export default function Navbar({ fixed }) {
     setNavbarOpen(false);
     document.getElementById("menu").scrollIntoView();
   };
+  const [darkMode, setDarkMode] = useState(false);
+  const handleDarkModeClick = () => {
+    setDarkMode(!darkMode);
+  };
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   return (
     <>
@@ -24,7 +37,7 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-primary-500">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-primary-500"
+              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold"
               href="#home"
             >
               {/* <img
@@ -72,8 +85,20 @@ export default function Navbar({ fixed }) {
                   onClick={() => setNavbarOpen(false)}
                   className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
                 >
-                  <FaShoppingCart className="text-2xl inline  text-primary-500" />
+                  <FaShoppingCart className="text-2xl inline" />
                 </a>
+              </li>
+              <li>
+                <button
+                  onClick={handleDarkModeClick}
+                  className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
+                >
+                  {darkMode ? (
+                    <BsMoonStars className="text-xl inline" />
+                  ) : (
+                    <BsSun className="text-xl inline" />
+                  )}
+                </button>
               </li>
             </ul>
           </div>

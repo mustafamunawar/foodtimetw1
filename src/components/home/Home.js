@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <section id="home" className="w-full bg-[#222A35]">
-        <div className="container mx-auto text-red font-roboto">
+        <div className="container mx-auto text-red">
           <div
             id="outer"
             className="py-16 mt-8 lg:py-16 lg:px-2 flex flex-col xl:flex-row justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
@@ -32,9 +32,9 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-white font-roboto">
+        <div className="bg-white">
           <div className="py-8 flex flex-col justify-center items-center container mx-auto mb-8">
-            <div className="flex items-center mt-12 text-4xl font-roboto">
+            <div className="flex items-center mt-12 text-4xl">
               <FaRegHandPaper className="scale-x-[-1] text-gray-700" />
               <h1 className="mt-2 ml-2 text-gray-700">Our Committment</h1>
             </div>

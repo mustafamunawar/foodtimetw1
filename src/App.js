@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen h-full font-roboto dark:bg-darkbg1 dark:text-darktext1">
       <Navbar />
       <Home />
       <div className="container mx-auto flex flex-col justify-start items-center pb-40">
@@ -29,7 +29,7 @@ function App() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

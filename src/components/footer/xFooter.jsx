@@ -12,9 +12,9 @@ function Footer() {
     <>
       <section
         id="footer"
-        className="font-roboto font-light text-gray-300 bottom-0 pt-4 pb-8 w-full bg-[#222A35]"
+        className="font-light text-gray-300 bottom-0 pt-4 pb-8 w-full bg-[#222A35]"
       >
-        <div className="container flex flex-col items-center mx-auto text-red font-roboto">
+        <div className="container flex flex-col items-center mx-auto text-red">
           <h1 className="ml-4 self-start my-5 font-salsa font-black text-2xl text-red-500">
             FOOD TIME
           </h1>
