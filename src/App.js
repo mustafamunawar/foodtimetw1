@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen h-full font-roboto dark:bg-darkbg1 dark:text-darktext1">
+    <div className="min-h-screen h-full font-roboto bg-lightbg dark:bg-darkbg text-lighttext dark:text-darktext">
       <Navbar />
       <Home />
       <div className="container mx-auto flex flex-col justify-start items-center pb-40">

@@ -33,11 +33,11 @@ export default function Navbar({ fixed }) {
 
   return (
     <>
-      <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-[#222A35]">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-primary-500">
+      <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-lightbg-navbar dark:bg-darkbg-navbar text-lighttext-navbar dark:text-darktext-navbar">
+        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
             <a
-              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold"
+              className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-primary-500"
               href="#home"
             >
               {/* <img
