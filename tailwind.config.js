@@ -1,6 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require("tailwindcss/colors");
+const xsharedColors = {
+  lightbg: colors.stone["200"],
+  lighttext: "#000000",
+  darkbg: colors.stone["800"],
+  darktext: "#ffffff",
+};
+
+const sharedColors = {
+  lightbg: colors.stone["200"],
+  lighttext: "#000000",
+  darkbg: colors.stone["800"],
+  darktext: "#ffffff",
+};
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
@@ -13,44 +27,44 @@ module.exports = {
 
         lightbg: {
           DEFAULT: "#ffffff",
-          navbar: colors.stone["200"],
-          hero: colors.stone["200"],
           cards: colors.stone["200"],
-          footer: colors.stone["200"],
+          navbar: sharedColors.lightbg,
+          hero: sharedColors.lightbg,
+          footer: sharedColors.lightbg,
         },
 
         lighttext: {
           DEFAULT: "#000000",
-          navbar: "#000000",
-          hero: "#000000",
           cards: "#000000",
-          footer: "#000000",
+          navbar: sharedColors.lighttext,
+          hero: sharedColors.lighttext,
+          footer: sharedColors.lighttext,
         },
 
         darkbg: {
-          DEFAULT: "#000000",
-          navbar: colors.stone["900"],
-          hero: colors.stone["900"],
-          cards: colors.stone["900"],
-          footer: colors.stone["900"],
+          DEFAULT: colors.zinc["900"],
+          cards: colors.stone["500"],
+          navbar: sharedColors.darkbg,
+          hero: sharedColors.darkbg,
+          footer: sharedColors.darkbg,
         },
 
         darktext: {
-          DEFAULT: "#ffffff",
-          navbar: "#ffffff",
-          hero: "#ffffff",
+          DEFAULT: colors.slate["100"],
           cards: "#ffffff",
-          footer: "#ffffff",
+          navbar: sharedColors.darktext,
+          hero: sharedColors.darktext,
+          footer: sharedColors.darktext,
         },
 
-        lightbg1: "ffffff",
-        lighttext1: "#000000",
-        darkbg1: colors.stone["800"],
-        darktext1: "#ffffff",
-        lightbg2: colors.stone["200"],
-        lighttext2: "#000000",
-        darkbg2: colors.stone["900"],
-        darktext2: "#ffffff",
+        // lightbg1: "ffffff",
+        // lighttext1: "#000000",
+        // darkbg1: colors.stone["800"],
+        // darktext1: "#ffffff",
+        // lightbg2: colors.stone["200"],
+        // lighttext2: "#000000",
+        // darkbg2: colors.stone["900"],
+        // darktext2: "#ffffff",
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
