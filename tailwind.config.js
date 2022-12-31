@@ -27,14 +27,14 @@ module.exports = {
 
         lightbg: {
           DEFAULT: "#ffffff",
-          cards: colors.stone["200"],
+          cards: colors.stone["100"],
           navbar: sharedColors.lightbg,
           hero: sharedColors.lightbg,
           footer: sharedColors.lightbg,
         },
 
         lighttext: {
-          DEFAULT: "#000000",
+          DEFAULT: colors.stone["900"],
           cards: "#000000",
           navbar: sharedColors.lighttext,
           hero: sharedColors.lighttext,
@@ -43,7 +43,7 @@ module.exports = {
 
         darkbg: {
           DEFAULT: colors.zinc["900"],
-          cards: colors.stone["500"],
+          cards: colors.stone["700"],
           navbar: sharedColors.darkbg,
           hero: sharedColors.darkbg,
           footer: sharedColors.darkbg,
