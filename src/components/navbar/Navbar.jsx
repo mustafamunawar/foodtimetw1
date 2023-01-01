@@ -20,6 +20,7 @@ export default function Navbar({ fixed }) {
   };
   const [darkMode, setDarkMode] = useState(false);
   const handleDarkModeClick = () => {
+    setNavbarOpen(false);
     setDarkMode(!darkMode);
   };
 

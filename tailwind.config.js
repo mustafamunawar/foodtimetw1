@@ -1,12 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require("tailwindcss/colors");
-const xsharedColors = {
-  lightbg: colors.stone["200"],
-  lighttext: "#000000",
-  darkbg: colors.stone["800"],
-  darktext: "#ffffff",
-};
 
 const sharedColors = {
   lightbg: colors.stone["200"],
