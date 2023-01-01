@@ -29,11 +29,11 @@ export default function FoodCard(props) {
           className="p-6 scale-125"
         />
         {/* </div> */}
-        <h4 className="text-xl font-normal tracking-tight">{name}</h4>
+        <h4 className="font-light text-xl tracking-tight">{name}</h4>
         <div className="">
-          <div className="text-2xl font-semibold">{price}</div>
+          <div className="text-2xl">{price}</div>
         </div>
-        <button className="font-semibold text-xl text-white bg-primary-600 rounded-3xl px-6 py-2">
+        <button className="text-xl text-white bg-primary-600 rounded-3xl px-6 py-2">
           Add to Cart
         </button>
       </section>

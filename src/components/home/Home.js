@@ -1,4 +1,5 @@
 import { FaSun, FaMoon, FaRegHandPaper } from "react-icons/fa";
+import { BsListCheck, BsCheckAll } from "react-icons/bs";
 
 function Home() {
   return (
@@ -38,7 +39,8 @@ function Home() {
         <div className="">
           <div className="py-8 flex flex-col justify-center items-center container mx-auto mb-8">
             <div className="flex items-center mt-12 text-4xl">
-              <FaRegHandPaper className="scale-x-[-1]" />
+              {/* <BsListCheck className="scale-x-[-1]" /> */}
+              <BsCheckAll className="text-primary-700" />
               <h1 className="mt-2 ml-2">Our Committment</h1>
             </div>
 
