@@ -2,12 +2,94 @@
 
 const colors = require("tailwindcss/colors");
 
-const sharedColors = {
-  lightbg: colors.stone["200"],
-  lighttext: "#000000",
-  darkbg: colors.stone["800"],
-  darktext: "#ffffff",
+const primaryColor = colors.teal;
+
+// ['red', 'orange', 'amber', 'yellow'] --> 'stone'
+// ['cyan', 'sky', 'blue', 'indigo'] --> 'slate'
+// ['lime', 'green', 'emerald', 'teal'] --> 'gray'
+// ['violet', 'purple', 'fuchshia'] --> 'zinc'
+// ['pink', 'rose'] --> 'neutral'
+
+let sharedColors = {};
+
+sharedColors = {
+  // lightbg: colors.stone["200"],
+  // lighttext: "#000000",
+  // darkbg: colors.stone["800"],
+  // darktext: "#ffffff",
 };
+
+sharedColors.lighttext = "#000000";
+sharedColors.darktext = "#ffffff";
+
+if (
+  [
+    colors.red["500"],
+    colors.orange["500"],
+    colors.amber["500"],
+    colors.yellow["500"],
+  ].indexOf(primaryColor["500"]) > -1
+) {
+  sharedColors.lightbg = colors.stone["200"];
+  sharedColors.darkbg = colors.stone["800"];
+}
+
+if (
+  [
+    colors.cyan["500"],
+    colors.sky["500"],
+    colors.blue["500"],
+    colors.indigo["500"],
+  ].indexOf(primaryColor["500"]) > -1
+) {
+  sharedColors.lightbg = colors.slate["200"];
+  sharedColors.darkbg = colors.slate["800"];
+}
+
+if (
+  [
+    colors.lime["500"],
+    colors.green["500"],
+    colors.emerald["500"],
+    colors.teal["500"],
+  ].indexOf(primaryColor["500"]) > -1
+) {
+  sharedColors.lightbg = colors.gray["200"];
+  sharedColors.darkbg = colors.gray["800"];
+}
+
+if (
+  [
+    colors.violet["500"],
+    colors.purple["500"],
+    colors.fuchsia["500"],
+    colors.pink["500"],
+    colors.rose["500"],
+  ].indexOf(primaryColor["500"]) > -1
+) {
+  sharedColors.lightbg = colors.zinc["200"];
+  sharedColors.darkbg = colors.zinc["800"];
+}
+
+// if (["cyan", "sky", "blue", "indigo"].indexOf(primaryColor) > -1) {
+//   sharedColors.lightbg = colors.slate["200"];
+//   sharedColors.darkbg = colors.slate["800"];
+// }
+
+// if (["lime", "green", "emerald", "teal"].indexOf(primaryColor) > -1) {
+//   sharedColors.lightbg = colors.gray["200"];
+//   sharedColors.darkbg = colors.gray["800"];
+// }
+
+// if (["violet", "purple", "fuchshia"].indexOf(primaryColor) > -1) {
+//   sharedColors.lightbg = colors.zinc["200"];
+//   sharedColors.darkbg = colors.zinc["800"];
+// }
+
+// if (["pink", "rose"].indexOf(primaryColor) > -1) {
+//   sharedColors.lightbg = colors.zinc["200"];
+//   sharedColors.darkbg = colors.zinc["800"];
+// }
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -17,35 +99,41 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.red,
+        primary: primaryColor,
+        secondary: colors.blue,
 
         lightbg: {
           DEFAULT: "#ffffff",
-          cards: colors.stone["100"],
+          // cards: colors.stone["100"],
+          cards: sharedColors.lightbg,
           navbar: sharedColors.lightbg,
           hero: sharedColors.lightbg,
           footer: sharedColors.lightbg,
         },
 
         lighttext: {
-          DEFAULT: colors.stone["900"],
-          cards: "#000000",
+          // DEFAULT: colors.stone["900"],
+          // cards: "#000000",
+          DEFAULT: sharedColors.lighttext,
+          cards: sharedColors.lighttext,
           navbar: sharedColors.lighttext,
           hero: sharedColors.lighttext,
           footer: sharedColors.lighttext,
         },
 
         darkbg: {
-          DEFAULT: colors.zinc["900"],
-          cards: colors.stone["700"],
+          // DEFAULT: colors.zinc["900"],
+          // cards: colors.stone["700"],
+          DEFAULT: colors.neutral["900"],
+          cards: sharedColors.darkbg,
           navbar: sharedColors.darkbg,
           hero: sharedColors.darkbg,
           footer: sharedColors.darkbg,
         },
 
         darktext: {
-          DEFAULT: colors.slate["100"],
-          cards: "#ffffff",
+          DEFAULT: "#ffffff",
+          cards: sharedColors.darktext,
           navbar: sharedColors.darktext,
           hero: sharedColors.darktext,
           footer: sharedColors.darktext,

@@ -1,7 +1,10 @@
 import { FaSun, FaMoon, FaRegHandPaper } from "react-icons/fa";
 import { BsListCheck, BsCheckAll } from "react-icons/bs";
+import { Ellipse } from "../Patches";
+const colors = require("tailwindcss/colors");
 
 function Home() {
+  console.log(colors);
   return (
     <>
       <section id="home" className="w-full">
@@ -11,7 +14,20 @@ function Home() {
               id="outer"
               className="py-16 mt-8 lg:py-16 lg:px-2 flex flex-col xl:flex-row justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
             >
-              <div id="left-panel" className="text-gray-500 text-center">
+              <div
+                id="left-panel"
+                className="relative text-gray-500 text-center bg-opacity-30"
+                style={{ transformStyle: "preserve-3d" }}
+              >
+                {/* <Ellipse
+                  cx="50%"
+                  cy="50%"
+                  rx="70%"
+                  ry="100%"
+                  opacity=".4"
+                  degrees="0deg"
+                /> */}
+
                 <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-primary-500">
                   FOOD TIME
                 </h1>

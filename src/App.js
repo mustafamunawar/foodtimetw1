@@ -7,8 +7,10 @@ import Lunch from "./pages/Lunch";
 import Dinner from "./pages/Dinner";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
+const colors = require("tailwindcss/colors");
 
 function App() {
+  // console.log(colors.red["50"]);
   return (
     <div className="min-h-screen h-full font-roboto bg-lightbg dark:bg-darkbg text-lighttext dark:text-darktext">
       <Navbar />
