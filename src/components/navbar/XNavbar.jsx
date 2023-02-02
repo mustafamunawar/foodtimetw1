@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { BsMoonStars, BsSun } from "react-icons/bs";
 import DarkModeButton from "./DarkModeButton";
 
 import { FaBars, FaShoppingCart } from "react-icons/fa";
@@ -18,6 +19,19 @@ export default function Navbar({ fixed }) {
     setNavbarOpen(false);
     document.getElementById("menu").scrollIntoView();
   };
+  const [darkMode, setDarkMode] = useState(false);
+  const handleDarkModeClick = () => {
+    setNavbarOpen(false);
+    setDarkMode(!darkMode);
+  };
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   return (
     <>
@@ -28,6 +42,12 @@ export default function Navbar({ fixed }) {
               className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-primary-500"
               href="#home"
             >
+              {/* <img
+                src="/images/foodtime-logo8.png"
+                alt="Food Time"
+                width="48"
+                height="48"
+              /> */}
               Food Time
             </a>
             <button
@@ -71,7 +91,16 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li>
-                <DarkModeButton />
+                <button
+                  onClick={handleDarkModeClick}
+                  className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
+                >
+                  {darkMode ? (
+                    <BsMoonStars className="text-xl inline" />
+                  ) : (
+                    <BsSun className="text-xl inline" />
+                  )}
+                </button>
               </li>
             </ul>
           </div>
