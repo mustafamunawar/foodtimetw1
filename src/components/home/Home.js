@@ -19,15 +19,6 @@ function Home() {
                 className="relative text-gray-500 text-center bg-opacity-30"
                 style={{ transformStyle: "preserve-3d" }}
               >
-                {/* <Ellipse
-                  cx="50%"
-                  cy="50%"
-                  rx="70%"
-                  ry="100%"
-                  opacity=".4"
-                  degrees="0deg"
-                /> */}
-
                 <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-primary-500">
                   FOOD TIME
                 </h1>
@@ -38,8 +29,17 @@ function Home() {
 
               <div
                 id="right-panel"
-                className="flex flex-col justify-center items-center gap-y-10 rounded"
+                className="relative flex flex-col justify-center items-center gap-y-10 rounded"
+                style={{ transformStyle: "preserve-3d" }}
               >
+                {/* <Ellipse
+                  cx="50%"
+                  cy="51%"
+                  rx="55%"
+                  ry="51%"
+                  opacity=".7"
+                  degrees="0deg"
+                /> */}
                 <img
                   src={"/images/foods-on-table-jpg-1.jpg"}
                   alt="home pic"

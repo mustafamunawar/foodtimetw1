@@ -14,7 +14,7 @@ function Defs() {
         filterUnits="objectBoundingBox"
         id="filter1"
       >
-        <feGaussianBlur stdDeviation="50" in="SourceGraphic" />
+        <feGaussianBlur stdDeviation="40" in="SourceGraphic" />
       </filter>
 
       <radialGradient id="gradient1">

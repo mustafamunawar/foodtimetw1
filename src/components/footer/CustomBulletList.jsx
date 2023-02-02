@@ -5,7 +5,7 @@ export default function CustomBulletList({ itemsArray }) {
     <ul className="mb-8 [&>*]:pt-4">
       {itemsArray.map((item, i) => {
         return (
-          <li>
+          <li key={i}>
             <a href={item.href}>
               <item.Icon className="text-primary-600 text-xl inline mr-2" />
               {item.description}

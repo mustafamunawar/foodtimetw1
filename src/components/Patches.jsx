@@ -39,7 +39,7 @@ export function Ellipse({
           rx={rx}
           ry={ry}
           strokeWidth="2"
-          className="fill-lightbg"
+          className="fill-primary-500"
           // fill="url(#gradient1)"
           style={{
             transformBox: "fill-box",

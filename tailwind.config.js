@@ -2,7 +2,7 @@
 
 const colors = require("tailwindcss/colors");
 
-const primaryColor = colors.teal;
+const primaryColor = colors.red;
 
 // ['red', 'orange', 'amber', 'yellow'] --> 'stone'
 // ['cyan', 'sky', 'blue', 'indigo'] --> 'slate'
@@ -28,6 +28,7 @@ if (
     colors.orange["500"],
     colors.amber["500"],
     colors.yellow["500"],
+    colors.slate["500"],
   ].indexOf(primaryColor["500"]) > -1
 ) {
   sharedColors.lightbg = colors.stone["200"];
@@ -40,6 +41,7 @@ if (
     colors.sky["500"],
     colors.blue["500"],
     colors.indigo["500"],
+    colors.stone["500"],
   ].indexOf(primaryColor["500"]) > -1
 ) {
   sharedColors.lightbg = colors.slate["200"];
