@@ -2,7 +2,7 @@
 
 const colors = require("tailwindcss/colors");
 
-const primaryColor = colors.amber;
+const primaryColor = colors.red;
 
 // ['red', 'orange', 'amber', 'yellow'] --> 'stone'
 // ['cyan', 'sky', 'blue', 'indigo'] --> 'slate'
