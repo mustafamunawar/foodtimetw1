@@ -41,7 +41,7 @@ function Home() {
                   degrees="0deg"
                 /> */}
                 <img
-                  src={"/images/foods-on-table-jpg-1.jpg"}
+                  src={"/images1/foods-on-table-jpg-1.jpg"}
                   alt="home pic"
                   className="lg:w-[550px] lg:h-[367px] rounded"
                   width="400"
