@@ -10,7 +10,6 @@
 
 import { footerData1, footerData2 } from "./footerData";
 import CustomBulletList from "./CustomBulletList";
-import { Ellipse } from "../Patches";
 
 function Footer() {
   return (
@@ -28,14 +27,6 @@ function Footer() {
             style={{ transformStyle: "preserve-3d" }}
             className="relative w-1/2 flex flex-wrap justify-between"
           >
-            {/* <Ellipse
-              cx="50%"
-              cy="50%"
-              rx="70%"
-              ry="70%"
-              opacity=".1"
-              degrees="0deg"
-            /> */}
 
             <CustomBulletList itemsArray={footerData1} />
             <CustomBulletList itemsArray={footerData2} />
@@ -47,3 +38,5 @@ function Footer() {
 }
 
 export default Footer;
+
+

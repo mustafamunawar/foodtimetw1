@@ -1,6 +1,5 @@
 import { FaSun, FaMoon, FaRegHandPaper } from "react-icons/fa";
 import { BsListCheck, BsCheckAll } from "react-icons/bs";
-import { Ellipse } from "../Patches";
 const colors = require("tailwindcss/colors");
 
 function Home() {
@@ -14,9 +13,8 @@ function Home() {
               id="outer"
               className="py-16 mt-8 lg:py-16 lg:px-2 flex flex-col xl:flex-row justify-center items-center lg:gap-x-12 xl:gap-x-48 gap-y-20"
             >
-              <div
-                id="left-panel"
-                className="relative text-gray-500 text-center bg-opacity-30"
+              
+              <div id="left-panel" className="relative text-gray-500 text-center bg-opacity-30"
                 style={{ transformStyle: "preserve-3d" }}
               >
                 <h1 className="font-salsa font-black text-6xl lg:text-[92px] lg:leading-[80px] text-primary-500">
@@ -32,14 +30,6 @@ function Home() {
                 className="relative flex flex-col justify-center items-center gap-y-10 rounded"
                 style={{ transformStyle: "preserve-3d" }}
               >
-                {/* <Ellipse
-                  cx="50%"
-                  cy="51%"
-                  rx="55%"
-                  ry="51%"
-                  opacity=".7"
-                  degrees="0deg"
-                /> */}
                 <img
                   src={"/images1/foods-on-table-jpg-1.jpg"}
                   alt="home pic"
@@ -61,13 +51,9 @@ function Home() {
             </div>
 
             <ul className="font-light pl-10 pr-1 list-outside list-disc mt-4 text-xl lg:text-2xl [&>*]:pt-4">
-              <li>
-                Your food will arrive within 30 minutes or it's yours for free
-              </li>
+              <li>Your food will arrive within 30 minutes or it's yours for free</li>
               <li>Your money back if our food is not up to your taste</li>
-              <li>
-                With every purchase $500 or more in a month you get a $50-off
-                coupon
+              <li> With every purchase $500 or more in a month you get a $50-off coupon
               </li>
             </ul>
           </div>

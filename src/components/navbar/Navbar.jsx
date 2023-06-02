@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import DarkModeButton from "./DarkModeButton";
 
-import { FaBars, FaShoppingCart } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import { BsCart, BsFillCartFill } from "react-icons/bs";
+
+import { useContext } from 'react';
+import { AppContext } from '../AppContext';
 
 const navbarItems = [
   { itemName: "Breakfast", href: "/Breakfast" },
@@ -11,13 +15,14 @@ const navbarItems = [
   // { itemName: "Sign In", href: "#projects" },
 ];
 
-export default function Navbar({ fixed }) {
+export default function Navbar({ fixed, cartItems }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const onLinkClick = () => {
     setNavbarOpen(false);
-    document.getElementById("menu").scrollIntoView();
   };
+
+  const ctx = useContext(AppContext);
 
   return (
     <>
@@ -52,7 +57,7 @@ export default function Navbar({ fixed }) {
                   <li key={i} className="nav-item">
                     <Link
                       className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
-                      to={item.href + "#menu"}
+                      to={item.href}
                       onClick={() => onLinkClick()}
                     >
                       <span className="ml-2">{item.itemName}</span>
@@ -62,13 +67,13 @@ export default function Navbar({ fixed }) {
               })}
 
               <li className="nav-item">
-                <a
-                  href="#footer"
+                <Link
+                  to="cart"
                   onClick={() => setNavbarOpen(false)}
                   className="text-xl px-3 py-2 flex items-center leading-snug hover:opacity-75"
                 >
-                  <FaShoppingCart className="text-2xl inline" />
-                </a>
+                  {cartItems.length===0? <BsCart className="text-2xl inline" /> : <BsFillCartFill className="text-2xl inline" />}
+                </Link>
               </li>
               <li>
                 <DarkModeButton />

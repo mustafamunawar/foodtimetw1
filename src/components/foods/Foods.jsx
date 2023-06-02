@@ -1,7 +1,7 @@
 import foodsData from "./foodsData";
 import FoodCard from "./FoodCard";
 
-function Foods({ type }) {
+function Foods({ type, addToCart }) {
   return (
     // <section
     //   id="skills"
@@ -18,7 +18,7 @@ function Foods({ type }) {
         {foodsData
           .filter((foodData) => foodData.type === type)
           .map((foodData) => (
-            <FoodCard key={foodData.id} foodData={foodData} />
+            <FoodCard key={foodData.id} addToCart={addToCart} foodData={foodData} />
           ))}
       </div>
     </section>
