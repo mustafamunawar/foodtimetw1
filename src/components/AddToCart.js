@@ -19,7 +19,7 @@ export default function  AddToCart  ({ handleClose, poppedItem }) {
     const qty_ref = useRef(null)
     return ( 
 
-        <div onClick={(e) => e.target === e.currentTarget ? handleClose() : undefined}    className='left-0 top-0 fixed flex justify-center items-center w-full h-full bg-slate-900 bg-opacity-70'>
+        <div onClick={ (e) => e.target === e.currentTarget ? handleClose() : undefined}    className='left-0 top-0 fixed flex justify-center items-center w-full h-full bg-slate-900 bg-opacity-70'>
             <div className='relative flex p-3  items-center  py-8 px-10 flex-col bg-slate-100  shadow-lg rounded' >
                 <BsXLg style='' className="absolute top-3 right-3 cursor-pointer  opacity-40 text-xs inline" onClick={handleClose} />
                 <h1 className='  text-3xl mb-6 pt-5  text flex-grow text-center'>Add to Cart  </h1>

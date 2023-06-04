@@ -29,12 +29,12 @@ export default function Navbar({ fixed, cartItems }) {
       <nav className="w-full fixed top-0 z-30 flex flex-wrap items-center justify-between px-2 py-0 bg-lightbg-navbar dark:bg-darkbg-navbar text-lighttext-navbar dark:text-darktext-navbar">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between sm:w-auto sm:static sm:block sm:justify-start">
-            <a
+            <Link
               className="font-salsa text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap font-bold text-primary-500"
-              href="#home"
+              to="/"
             >
               Food Time
-            </a>
+            </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
               type="button"

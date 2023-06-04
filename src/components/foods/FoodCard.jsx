@@ -14,7 +14,7 @@ export default function FoodCard(props) {
 
         <div className="relative" style={{ transformStyle: "preserve-3d" }}>
           <img
-            src={"/images1/" + imageFile}
+            src={"./foodtimetw1/images1/" + imageFile}
             alt="xxx"
             className="p-6 scale-125"
           />
